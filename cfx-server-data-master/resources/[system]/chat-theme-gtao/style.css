@@ -85,7 +85,7 @@
 }
 
 .chat-input > div {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.0);
     padding: calc(0.15625vw / 2);
 }
 
@@ -104,13 +104,13 @@
 }
 
 .suggestions {
-    border: calc(0.15625vw / 2) solid rgba(180, 180, 180, .6);
+    border: calc(0.15625vw / 2) solid rgba(180, 180, 180, 0.0);
     background: transparent;
 }
 
 textarea {
     background: transparent;
-    border: calc(0.15625vw / 2) solid rgba(180, 180, 180, .6);
+    border: calc(0.15625vw / 2) solid rgba(180, 180, 180, 0.0);
     padding: calc(0.15625vw / 2);
     padding-left: calc(3.5% + (0.15625vw / 2));
 }

@@ -12,11 +12,11 @@ AddEventHandler('_chat:messageEntered', function(author, color, message)
         return
     end
 
-    TriggerEvent('chatMessage', source, author, message)
+    --[[TriggerEvent('chatMessage', source, author, message)
 
     if not WasEventCanceled() then
-        TriggerClientEvent('chatMessage', -1, author,  { 255, 255, 255 }, message)
-    end
+        --TriggerClientEvent('chatMessage', -1, author,  { 255, 255, 255 }, message)
+    end --]]
 
     print(author .. '^7: ' .. message .. '^7')
 end)
