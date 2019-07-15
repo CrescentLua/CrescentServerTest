@@ -149,7 +149,7 @@ local function refreshThemes()
 
         if themeName and themeData then
           themeData.baseUrl = 'nui://' .. resource .. '/'
-          themes[themeName] = themeData
+          themes[themeName] = themeData 
         end
       end
     end
