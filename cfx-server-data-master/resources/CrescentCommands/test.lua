@@ -16,7 +16,7 @@ end
 
 function OutputOOCMessage(OOCmsg) 
     TriggerEvent("chat:addMessage", { 
-        color = {0, 0, 255}, 
+        color = {255, 255, 255}, 
         multiline = true, 
         args = {GetPlayerName(PlayerId()) .. "[OOC]", OOCmsg}
     })

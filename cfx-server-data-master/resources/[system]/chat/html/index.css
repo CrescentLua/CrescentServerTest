@@ -95,12 +95,12 @@ textarea:focus, input:focus {
   margin-bottom: 0.35%;
   margin-left: 0.35%; 
   padding-left: 5.5%;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
 
-  background-image: url(https://ui-ex.com/images/box-transparent-gray-1.png); 
-  background-size: auto; 
-  background-height: auto;
+  background-image: url(https://media3.giphy.com/media/2IHhKN7VCjIXu/giphy.gif?cid=790b76115d2d41ab3153314136d725db&rid=giphy.gif); 
+  background-size: cover; 
   width: 50.0%; 
- 
 }
 
 .multiline {
