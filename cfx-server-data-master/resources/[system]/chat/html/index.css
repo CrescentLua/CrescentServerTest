@@ -95,11 +95,20 @@ textarea:focus, input:focus {
   margin-bottom: 0.35%;
   margin-left: 0.35%; 
   padding-left: 5.5%;
+  border-top: 1px solid white;
+  padding-top: 10px;
   border-bottom: 1px solid white;
   padding-bottom: 10px;
-
-  background-image: url(https://media3.giphy.com/media/2IHhKN7VCjIXu/giphy.gif?cid=790b76115d2d41ab3153314136d725db&rid=giphy.gif); 
+  border-right: 1px solid white;
+  padding-right: 10px;
+  border-left: 1px solid white;
+  padding-left: 10px;
+   
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(https://media0.giphy.com/media/xThtawJ5higNRr1pq8/giphy.gif?cid=790b76115d2e7cda7877306c49a60439&rid=giphy.gif); 
   background-size: cover; 
+  background-position: 50% 50%;
   width: 50.0%; 
 }
 
